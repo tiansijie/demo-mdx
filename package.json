@@ -1,0 +1,19 @@
+{
+  "name": "demo-mdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-syntax-highlighter": "^8.0.1"
+  },
+  "devDependencies": {
+    "mdx-deck": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx --no-open",
+    "pdf": "mdx-deck pdf deck.mdx"
+  },
+  "author": "",
+  "license": "ISC"
+}
